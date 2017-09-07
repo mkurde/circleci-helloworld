@@ -2,7 +2,7 @@ version: 2
 jobs:
    build:
      docker:
-       - image: php:7.0.23-fpm-browsers
+       - image: circleci/php:7.0.23-fpm-browsers
      steps:
        - checkout
        - run: echo "hello world"
