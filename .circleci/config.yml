@@ -2,7 +2,7 @@ version: 2
 jobs:
    build:
      docker:
-       - image: 7.0.23-fpm-browsers
+       - image: php:7.0.23-fpm-browsers
      steps:
        - checkout
        - run: echo "hello world"
